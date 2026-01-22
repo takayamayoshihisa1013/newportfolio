@@ -1,0 +1,67 @@
+.workSection .works {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.workSection .works .row {
+  display: flex;
+  justify-content: start;
+  gap: 5%;
+  flex-wrap: wrap;
+}
+
+.workSection .works .row .work {
+  width: 28%;
+  padding: 1%;
+  transition: 0.3s;
+}
+
+/* PCなど hover 可能なデバイスのみ */
+@media (hover: hover) and (pointer: fine) {
+  .workSection .works .row .work:hover {
+    transform: scale(1.05, 1.05);
+  }
+}
+
+.workSection .works .row .work a img {
+  width: 100%;
+  border-radius: 16px;
+  object-fit: contain;
+  height: 20em;
+}
+
+.workSection .works .row .work .description .workLang .tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.workSection .works .row .work .description .workLang .tech-tags span {
+  background: #d4c0ab;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 1rem;
+}
+
+.workSection .works .row .work .description .workExplain {
+  font-size: 1.2rem;
+  margin-top: 1vh;
+}
+
+@media screen and (max-width: 768px) {
+  .workSection .works .row .work {
+    width: 45%;
+  }
+
+  .workSection .works .row .work a img {
+    height: 13em;
+  }
+
+  .workSection .works .row .work .description .workExplain {
+    font-size: 1rem;
+  }
+
+  .workSection .works .row .work .description .workLang .tech-tags span {
+    font-size: 0.9rem;
+  }
+}

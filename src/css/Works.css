@@ -1,0 +1,166 @@
+.work-information {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  background: #e8dcd0;
+  padding: 48px;
+  border-radius: 24px;
+  height: calc(70vh - 48px);
+}
+
+.information-text {
+  width: 50%;
+}
+
+.work-title {
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+}
+
+.work-name {
+  font-size: 2.1rem;
+  color: #555;
+  margin-bottom: 32px;
+}
+
+.work-information h3 {
+  font-size: 1.8rem;
+  margin-bottom: 16px;
+}
+
+.work-information .tech-block {
+  margin-bottom: 24px;
+}
+
+.work-information .tech-label {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #91683c;
+  margin-bottom: 8px;
+}
+
+.work-information .tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.work-information .tech-tags span {
+  background: #d4c0ab;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 1.2rem;
+}
+
+.work-information .tech-tags.frontend span {
+  background: #c19e77;
+  color: #fff;
+}
+
+.work-information .information-image {
+  border-radius: 16px;
+  height: 100%;
+}
+
+.work-information .information-image img {
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: contain;
+}
+
+.explain {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  margin-top: 16px;
+}
+
+
+.workDescription {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 5vh;
+  padding-bottom: 10vh;
+}
+
+.workDescription h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2vh;
+}
+
+.description-block {
+  /* width: 90%; */
+  margin: 0 auto;
+  margin-bottom: 5vh;
+}
+
+.description-block h3 {
+  font-size: 2rem;
+  margin-bottom: 1vh;
+}
+
+.description-block img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+.description-block video {
+  width: 100%;
+  border-radius: 16px;
+  
+}
+
+.description-block p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  margin-top: 1vh;
+}
+
+.backToHome {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  margin-top: 4vh;
+  font-size: 1.2rem;
+  color: #fff;
+  background: #91683c;
+}
+
+
+@media screen and (max-width: 768px) {
+  .work-information {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .information-text {
+    width: 100%;
+  }
+
+  .work-information .information-image {
+    width: 100%;
+    height: auto;
+    margin-top: 24px;
+  }
+
+  .workDescription {
+    width: 90%;
+  }
+
+  .workDescription h2 {
+    font-size: 2rem;
+  }
+
+  .description-block h3 {
+    font-size: 1.5rem;
+  }
+
+  .description-block p {
+    font-size: 1.2rem;
+  }
+
+
+}

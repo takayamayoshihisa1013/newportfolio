@@ -1,0 +1,27 @@
+.contact-address {
+    font-size: 1.5rem;
+    margin: 5vh;
+    text-align: center;
+    
+}
+
+.contact-address span {
+    font-weight: bold;
+    margin-right: 8px;
+    color: #91683c;
+}
+
+.contact-address br {
+        display: none;
+    }
+
+@media screen and (max-width: 768px) {
+    .contact-address {
+        font-size: 1.2rem;
+        margin: 5vh 2vh;
+    }
+
+    .contact-address br {
+        display: block;
+    }
+}

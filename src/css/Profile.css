@@ -1,0 +1,97 @@
+.profile {
+    height: auto;
+    width: 100%;
+}
+
+.profile .profileImgText {
+    display: flex;
+}
+
+.profile .profileImgText .profileImg  {
+    width: 40%;
+}
+
+.profile .profileImgText .profileImg img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: calc(35vh - 200px) auto;
+}
+
+.profile .profileImgText .profileText {
+    margin-top: 15vh;
+    width: 55%;
+}
+
+.profile .profileImgText .profileText .myname {
+    font-size: 2.5rem;
+    line-height: 5vh;
+}
+
+.profile .profileImgText .profileText .englishMyname {
+    font-size: 1.5rem;
+    line-height: 5vh;
+}
+
+.profile .profileImgText .profileText .school {
+    line-height: 5vh;
+    font-size: 1.3rem;
+}
+
+.profile .profileImgText .profileText .school-mobile {
+    display: none;
+}
+
+.profile .profileImgText .profileText p {
+    line-height: 3vh;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .profile .profileImgText {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile .profileImgText .profileImg  {
+        width: 60%;
+    }
+
+    .profile .profileImgText .profileImg img {
+        width: 200px;
+        height: 200px;
+        margin: 2vh auto;
+    }
+
+    .profile .profileImgText .profileText {
+        width: 80%;
+        margin-top: 1vh;
+    }
+
+    .profile .profileImgText .profileText .myname {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .profile .profileImgText .profileText .englishMyname {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .profile .profileImgText .profileText .school {
+        display: none;
+    }
+
+    .profile .profileImgText .profileText .school-mobile {
+        display: block;
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 3vh;
+    }
+
+    .profile .profileImgText .profileText p {
+        font-size: 1rem;
+    }
+}

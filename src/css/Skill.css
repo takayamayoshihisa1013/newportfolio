@@ -1,0 +1,65 @@
+.skillCategory {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.skillCategory .row {
+    display: flex;
+    justify-content: space-between;
+    margin: 2.5vh auto;
+    flex-wrap: wrap;
+}
+
+.skillCategory .row .skillRate {
+    width: 20%;
+    background-color: #e8dcd0;
+    padding: 1%;
+    border-radius: 10px;
+    margin: 1vh 0;
+    border-radius: 10px;
+}
+
+.skillCategory .row .skillRate .languageIcon {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.skillCategory .row .skillRate .languageName {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.skillCategory .row .skillRate .barBack {
+    width: 90%;
+    height: 5px;
+    background-color: #D8CFC4 ;
+    margin: 1vh auto;
+    border-radius: 2.5px;
+}
+
+.skillCategory .row .skillRate .barBack .bar {
+    background-color: #B5838D;
+    width: 10%;
+    border-radius: 2.5px;
+    height: 5px;
+}
+
+.skillCategory .row .skillRate .percent {
+    font-size: 1.3rem;
+    text-align: center;
+    color: #3E3E3E;
+}
+
+@media screen and (max-width: 768px) {
+    .skillCategory .row .skillRate {
+        width: 40%;
+    }
+
+    .skillCategory .row .skillRate .languageIcon {
+        font-size: 2.5rem;
+    }
+
+    .skillCategory .row .skillRate .languageName {
+        font-size: 1.2rem;
+    }
+}

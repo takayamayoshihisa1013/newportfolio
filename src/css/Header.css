@@ -1,0 +1,31 @@
+header {
+    width: 90%;
+    padding: 2vh 5%;
+    display: flex;
+    height: 10vh;
+    justify-content: space-between;
+    background-color: #EFE9E6;
+}
+
+header h1 {
+    font-size: 2rem;
+    line-height: 5vh;
+    color: #2D2A29;
+}
+
+header h1:nth-child(2) {
+    margin-left: 35px;
+}
+
+header nav {
+    width: 40%;
+    text-align: center;
+    line-height: 10vh;
+    font-size: 1.2rem;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
