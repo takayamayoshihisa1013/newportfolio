@@ -22,7 +22,7 @@ export const worksData: workData[] = [
     {
         id: 1,
         title: "全国天気now",
-        img: "/src/image/work/work1.png",
+        img: "/image/work/work1.png",
         alt: "全国天気now",
         date: "2024-06-01",
         frontLang: ["HTML", "CSS", "JavaScript"],
@@ -168,7 +168,7 @@ export const worksData: workData[] = [
         description: [
             {
                 pageTitle: "作品紹介動画",
-                mov: ["https://drive.google.com/file/d/1SjHGtjrYkx9MamJmv0tm6NdNuZqvFvOb/view?usp=drive_link"],
+                mov: ["https://drive.google.com/file/d/1SjHGtjrYkx9MamJmv0tm6NdNuZqvFvOb/preview?usp=drive_link"],
                 alt: "作品紹介動画",
                 description: "就職作品プレゼンテーションで実際に使った作品紹介動画です。"
             },
