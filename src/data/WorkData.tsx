@@ -168,7 +168,7 @@ export const worksData: workData[] = [
         description: [
             {
                 pageTitle: "作品紹介動画",
-                mov: ["/image/work/work5Movie.mp4"],
+                mov: ["https://drive.google.com/file/d/1SjHGtjrYkx9MamJmv0tm6NdNuZqvFvOb/view?usp=drive_link"],
                 alt: "作品紹介動画",
                 description: "就職作品プレゼンテーションで実際に使った作品紹介動画です。"
             },

@@ -1,8 +1,8 @@
 
 
 type descriptionsProps = {
-    imgs? : string[];
-    mov? : string[];
+    imgs?: string[];
+    mov?: string[];
     alt: string;
     title: string;
     description: string;
@@ -14,7 +14,12 @@ export default function Descriptions({ imgs, mov, alt, title, description }: des
             <h3>{title}</h3>
             {
                 mov?.map((movie, index) => (
-                    <video key={index} src={movie} controls />
+                    <iframe
+                        key={index}
+                        src={movie}
+                        allow="autoplay"
+                        allowFullScreen
+                    ></iframe>
                 ))
             }
             {
@@ -22,7 +27,7 @@ export default function Descriptions({ imgs, mov, alt, title, description }: des
                     <img key={index} src={img} alt={alt} />
                 ))
             }
-            
+
             <p>
                 {description}
             </p>
