@@ -1,4 +1,4 @@
-import topImg from "./../../image/TopImg.png"
+import topImg from "/image/TopImg.png"
 import "./../../css/TopImg.css"
 
 const TopImg = () => {
