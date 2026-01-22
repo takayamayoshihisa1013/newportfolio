@@ -8,12 +8,7 @@ type DescriptionProps = {
 
 export default function Description({ id }: DescriptionProps) {
   const workDescriptionData = worksData.find((work) => work.id === id);
-  const scrollToSection = (id: string) => {
-        const el = document.getElementById(id);
-        if (el) {
-            el.scrollIntoView({ behavior: "smooth" });
-        }
-    }
+  
   return (
     <section className="workDescription">
       <div className="sectionTitle">

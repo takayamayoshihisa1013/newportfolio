@@ -2,7 +2,7 @@ import './App.css'
 import Work from './components/Work'
 import Nav from './components/Nav'
 import Top from './components/Top'
-import { Route, BrowserRouter, Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import { useState } from 'react'
 
 // #f1f1f1
