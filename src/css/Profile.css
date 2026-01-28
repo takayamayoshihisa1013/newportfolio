@@ -73,11 +73,13 @@
     .profile .profileImgText .profileText .myname {
         font-size: 2rem;
         text-align: center;
+        line-height: 10vh;
     }
 
     .profile .profileImgText .profileText .englishMyname {
         font-size: 1.2rem;
         text-align: center;
+        line-height: 7vh;
     }
 
     .profile .profileImgText .profileText .school {
@@ -89,9 +91,11 @@
         font-size: 1rem;
         text-align: center;
         margin-bottom: 3vh;
+        line-height: 5vh;
     }
 
     .profile .profileImgText .profileText p {
         font-size: 1rem;
+        line-height: 6vh;
     }
 }
