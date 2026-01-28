@@ -79,14 +79,13 @@
     }
 
     .navMenu-mobile ul {
-        margin: 20vh 0;
+        margin: 10vh 0;
         list-style: none;
         font-size: 1.7rem;
     }
 
     .navMenu-mobile ul li {
-        height: 8vh;
-        line-height: 8vh;
+        height: 12vh;
     }
 
     .navMenu-mobile ul li a:hover {
