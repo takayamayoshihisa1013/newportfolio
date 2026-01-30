@@ -29,8 +29,6 @@ a {
     display: flex;
     align-items:center;
     gap: 2rem;
-    line-height: 10vh;
-    height: 10vh;
 }
 
 .sectionTitle h1 {

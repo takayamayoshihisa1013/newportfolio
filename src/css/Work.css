@@ -27,7 +27,6 @@
   width: 100%;
   border-radius: 16px;
   object-fit: contain;
-  height: 20em;
 }
 
 .workSection .works .row .work .description .workLang .tech-tags {
@@ -51,10 +50,6 @@
 @media screen and (max-width: 768px) {
   .workSection .works .row .work {
     width: 45%;
-  }
-
-  .workSection .works .row .work a img {
-    height: 13em;
   }
 
   .workSection .works .row .work .description .workExplain {

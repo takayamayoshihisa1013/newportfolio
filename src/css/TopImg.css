@@ -41,22 +41,36 @@
     height: 100%;
 }
 
+@media screen and (max-width: 1200px) {
+    .topImg .topImgDivText {
+        font-size: 3rem;
+        height: 12vh;
+    }
 
+    .topImg .topImgDivText:nth-child(1) {
+        top: 65vh;
+        left: 5%;
+    }
+
+    .topImg .topImgDivText:nth-child(2) {
+        top: 80vh;
+        left: 10%;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .topImg .topImgDivText {
         font-size: 2rem;
         height: 10vh;
-        line-height: 10vh;
     }
 
     .topImg .topImgDivText:nth-child(1) {
-        top: 40vh;
+        top: 70vh;
         left: 5%;
     }
 
     .topImg .topImgDivText:nth-child(2) {
-        top: 50vh;
-        left: 5%;
+        top: 80vh;
+        left: 10%;
     }
 }

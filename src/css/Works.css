@@ -5,7 +5,7 @@
   background: #e8dcd0;
   padding: 48px;
   border-radius: 24px;
-  height: calc(70vh - 48px);
+  min-height: calc(70vh - 48px);
 }
 
 .information-text {
@@ -60,13 +60,12 @@
 
 .work-information .information-image {
   border-radius: 16px;
-  height: 100%;
+  max-width: 45%;
 }
 
 .work-information .information-image img {
   width: 100%;
   display: block;
-  height: 100%;
   object-fit: contain;
 }
 
@@ -130,11 +129,20 @@
   background: #91683c;
 }
 
+@media screen and (max-width: 900px) {
+  .workDescription {
+    width: 70%;
+  }
+}
+
 
 @media screen and (max-width: 768px) {
   .work-information {
     flex-direction: column;
     height: auto;
+    gap: 10px;
+    padding: 15px;
+    width: calc(100% - 30px);
   }
 
   .information-text {
@@ -143,6 +151,7 @@
 
   .work-information .information-image {
     width: 100%;
+    max-width: 100%;
     height: auto;
     margin-top: 24px;
   }

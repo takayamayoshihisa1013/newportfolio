@@ -51,6 +51,20 @@
     z-index: 200;
 }
 
+@media screen and (max-width: 900px) {
+    .navMenu h2 {
+        font-size: 1.5rem;
+    }
+
+    .navMenu ul {
+        font-size: 1.3rem;
+    }
+
+    .navMenu ul li {
+        margin-bottom: 2vh;
+    }
+}
+
 
 @media screen and (max-width: 768px) {
     .navMenu {
@@ -72,7 +86,7 @@
 
     .navMenu-mobile h2 {
         font-size: 2rem;
-        margin-top: 10vh;
+        margin-top: 20vh;
         text-align: center;
         height: 5vh;
         line-height: 5vh;
@@ -85,7 +99,7 @@
     }
 
     .navMenu-mobile ul li {
-        height: 12vh;
+        margin-bottom: 2vh;
     }
 
     .navMenu-mobile ul li a:hover {

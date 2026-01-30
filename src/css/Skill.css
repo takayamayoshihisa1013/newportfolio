@@ -53,6 +53,7 @@
 @media screen and (max-width: 768px) {
     .skillCategory .row .skillRate {
         width: 40%;
+        padding: 2.5%;
     }
 
     .skillCategory .row .skillRate .languageIcon {
