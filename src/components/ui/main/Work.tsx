@@ -38,7 +38,7 @@ export default function Work({ id }: WorkProps) {
                             </div>
                         </p>
                     }
-                    <p className="workExplain">{work?.explain}</p>
+                    {/* <p className="workExplain">{work?.explain}</p> */}
                 </div>
             </Link>
         </li>
