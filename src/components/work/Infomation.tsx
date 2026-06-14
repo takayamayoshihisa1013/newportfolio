@@ -13,7 +13,18 @@ export default function Information({ id }: InformationProps) {
                 <p className="work-name">{workData?.title}</p>
 
                 <h3>使用技術</h3>
-
+                {
+                    workData?.frontLang && (
+                        <div className="tech-block">
+                            <span className="tech-label">Frontend</span>
+                            <div className="tech-tags frontend">
+                                {workData?.frontLang?.map((lang, index) => (
+                                    <span key={index}>{lang}</span>
+                                ))}
+                            </div>
+                        </div>
+                    )
+                }
                 {
                     workData?.backLang && (
                         <div className="tech-block">
@@ -27,18 +38,18 @@ export default function Information({ id }: InformationProps) {
                     )
                 }
                 {
-                    workData?.frontLang && (
+                    workData?.otherLang && (
                         <div className="tech-block">
-                            <span className="tech-label">Frontend</span>
-                            <div className="tech-tags frontend">
-                                {workData?.frontLang?.map((lang, index) => (
+                            <span className="tech-label">Other</span>
+                            <div className="tech-tags">
+                                {workData?.otherLang?.map((lang, index) => (
                                     <span key={index}>{lang}</span>
                                 ))}
                             </div>
                         </div>
                     )
                 }
-                
+
                 <h3>サイト内容</h3>
 
                 <p className="explain">

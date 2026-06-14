@@ -14,6 +14,7 @@ export type workData = {
     date: string;
     frontLang?: readonly string[];
     backLang?: readonly string[];
+    otherLang?: readonly string[];
     explain: string;
     description: workDescription[];
 }
@@ -24,7 +25,7 @@ export const worksData: workData[] = [
         title: "全国天気now",
         img: "/image/work/work1.png",
         alt: "全国天気now",
-        date: "2024-06-01",
+        date: "2022-06-01",
         frontLang: ["HTML", "CSS", "JavaScript"],
         explain: "全国の天気情報をリアルタイムで確認できるアプリケーションです。",
         description: [
@@ -41,7 +42,7 @@ export const worksData: workData[] = [
         title: "洋服のECサイト",
         img: "/image/work/work2.png",
         alt: "洋服のECサイト",
-        date: "2024-06-15",
+        date: "2024-03-01",
         frontLang: ["HTML", "CSS", "JavaScript"],
         backLang: ["Python", "Flask", "MySQL"],
         explain: "ユーザーが洋服を購入できるECサイトです。商品検索、商品出品、カート機能、購入（実際の決済は行いません）、サイト管理などの機能を実装しています。",
@@ -238,7 +239,31 @@ export const worksData: workData[] = [
                 alt: "設定ページ",
                 description: "設定ページでは、ユーザーがアカウント設定や通知設定などを管理できます。また、ダークモードの切り替えも可能です。"
             },
-            
         ]
-    }
+    },
+    {
+        id: 6,
+        title: "家計簿アプリ",
+        img: "/image/work/work6.png",
+        alt: "家計簿アプリ",
+        date: "2026-05-06",
+        frontLang: ["HTML", "CSS", "React", "TypeScript"],
+        backLang: ["Python", "FastAPI", "SQLite"],
+        otherLang: ["Electron"],
+        explain: "日々の支出を簡単に記録・管理できる家計簿アプリです。店舗名や金額、利用日を登録し、月ごとの支出状況をグラフで可視化できます。支出の推移を直感的に把握できるため、無駄遣いの発見や予算管理をサポートします。",
+        description: [
+            {
+                pageTitle: "トップ画面",
+                imgs: ["/image/work/work6.png"],
+                alt: "トップ画面",
+                description: "月ごとの支出額を棒グラフで表示し、お金の使い方を一目で確認できます。過去の記録も月単位で管理でき、支出傾向の把握に役立ちます。"
+            },
+            {
+                pageTitle: "支出記録画面",
+                imgs: ["/image/work/work61.png"],
+                alt: "支出記録画面",
+                description: "支出内容を登録・編集・削除できる画面です。月ごとに設定した予算を超過した場合は金額を強調表示し、使い過ぎに気付きやすい設計にしています。"
+            },
+        ]
+    },
 ]

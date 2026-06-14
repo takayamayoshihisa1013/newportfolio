@@ -38,6 +38,16 @@ export default function Work({ id }: WorkProps) {
                             </div>
                         </p>
                     }
+                    {
+                        work?.otherLang && <p className="workLang">
+                            <span>Other</span>
+                            <div className="tech-tags">
+                                {work?.otherLang?.map((lang, index) => (
+                                    <span key={index}>{lang}</span>
+                                ))}
+                            </div>
+                        </p>
+                    }
                     {/* <p className="workExplain">{work?.explain}</p> */}
                 </div>
             </Link>
