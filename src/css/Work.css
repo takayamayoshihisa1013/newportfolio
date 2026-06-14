@@ -27,6 +27,7 @@
   width: 100%;
   border-radius: 16px;
   object-fit: contain;
+  max-height: 30vh;
 }
 
 .workSection .works .row .work .description .workLang .tech-tags {

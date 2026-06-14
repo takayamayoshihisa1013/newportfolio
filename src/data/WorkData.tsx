@@ -254,13 +254,13 @@ export const worksData: workData[] = [
         description: [
             {
                 pageTitle: "トップ画面",
-                imgs: ["/image/work/work6.png"],
+                imgs: ["/image/work/work60.png"],
                 alt: "トップ画面",
                 description: "月ごとの支出額を棒グラフで表示し、お金の使い方を一目で確認できます。過去の記録も月単位で管理でき、支出傾向の把握に役立ちます。"
             },
             {
                 pageTitle: "支出記録画面",
-                imgs: ["/image/work/work61.png"],
+                imgs: ["/image/work/work61.png", "/image/work/work62.png"],
                 alt: "支出記録画面",
                 description: "支出内容を登録・編集・削除できる画面です。月ごとに設定した予算を超過した場合は金額を強調表示し、使い過ぎに気付きやすい設計にしています。"
             },
